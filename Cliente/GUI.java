@@ -1,4 +1,4 @@
-package Servidor;
+package Cliente;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
