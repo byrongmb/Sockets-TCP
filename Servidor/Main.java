@@ -5,5 +5,4 @@ public class Main {
         GUI vtn = new GUI();
         vtn.setVisible(true);
     }
-    
 }

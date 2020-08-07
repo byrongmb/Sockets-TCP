@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "Cliente.Main",
+            "projectName": "Sockets-TCP_6a7aa0ab"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "Servidor.Main",
+            "projectName": "Sockets-TCP_6a7aa0ab"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Sockets-TCP_6a7aa0ab>",
+            "request": "launch",
+            "mainClass": "Cliente.Main",
+            "projectName": "Sockets-TCP_6a7aa0ab"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Sockets-TCP_6a7aa0ab>(1)",
+            "request": "launch",
+            "mainClass": "Servidor.Main",
+            "projectName": "Sockets-TCP_6a7aa0ab"
+        }
+
+    ]
+}

@@ -14,7 +14,7 @@ public class GUI extends JFrame{
     private final JButton[] btn = new JButton[1];
 
     public GUI() {
-        this.setTitle("Aplicación Servidor");
+        this.setTitle("Cliente");
         this.setSize(500, 500);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
