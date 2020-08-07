@@ -22,7 +22,7 @@ public class EnviarTexto implements ActionListener {
             Socket sckt = new Socket(IP_ADD, PORT);
             DataOutputStream flujo_salida = new DataOutputStream(sckt.getOutputStream());
             flujo_salida.writeUTF(ctx[0].getText());
-            flujo_salida.close();
+            sckt.close();
 
             System.out.println("Enviado");
         } catch (UnknownHostException e1) {
